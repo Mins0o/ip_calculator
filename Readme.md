@@ -7,7 +7,7 @@ g++ -std=c++17 -O3 ip_calculator.cpp calculations.cpp -o build/ip_calculator
 ## To run  
 
 ```bash
-./ip_calculator -i 0.0.0.0/0 -e 192.168.0.0/16 --prefix-length --delimiter ', ' -v
+./build/ip_calculator -i 0.0.0.0/0 -e 192.168.0.0/16 --prefix-length --delimiter ', ' -v
 ```
 
 vibe coded with vscode and github copilot (gemini 2.5 pro)  
